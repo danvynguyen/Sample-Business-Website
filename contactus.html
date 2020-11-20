@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo Black">
+    </head>
+    <body>
+        <header>
+            <!--logo-->
+            <div class="logo">
+                <h1 class="logo" id="companyName"><img src="Images/logo.jpg" alt="logo" class="logo" id="companyLogo">EMPURA</h1>
+            </div>
+            
+            <!--nav bar for computer users-->
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li class="currentPage"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <!--nav bar for computer users-->
+            <div class="dropdown">
+                <img class="icon" src="Images/icon.jpg" alt="Hamburger Icon">
+                <div class="dropdown-content">
+  	                <a href="homepage.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+            
+        </header>
+       
+        <main>
+            <img class="mainImage" src="Images/handshake.jpg" alt="handshake">
+        
+            <!-- main contact form goes here-->
+            <h1>Contact Us</h1>
+            <article class="contactBox">
+                <h2>For Business Inquires</h2>
+                <figure>
+                    <img class="itemImage" id="contactImage" src="Images/customer-support.jpg" alt="Customer Support" >
+                </figure>
+            
+                <form method="post" action="mailto:joeblokson@gmail.com">
+                    <p>
+                        <label>Name:</label>
+                        <br>
+                        <input name="name" type="text" maxlength="30" placeholder="Your Name">
+                    </p>
+                    <p>
+                        <label>Email:</label>
+                        <br>
+                        <input name="email" type="email" pattern="[a-z0-  9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your Email">
+                    </p>
+                    
+                    <label>Message:</label>
+                    <br>
+                    <textarea maxlength="280" rows="4" cols="50" placeholder="Your Message"></textarea> <br>
+            
+                    <input id="submitButton" name="submit" type="submit">
+                </form>
+            </article>
+        </main>
+        
+        <footer>
+            <p>123th Bricksburg Avenue SW, Legopolis, BG</p>
+            <p>Phone: (555) 876-7281 Fax: (555) 876 8329 Email: info@empura.com</p>
+            <p>Contact | Careers | Privacy Policy</p>
+            <div id="copyright">©1987-2020, Empura Inc.</div>
+        </footer>
+    </body>
+
+</html>

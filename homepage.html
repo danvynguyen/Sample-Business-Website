@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Empura.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
+    </head>
+    <body>
+        <header>
+            <!--This is where the logo goes-->
+            <div class="logo">
+                <h1 class="logo" id="companyName"><img src="Images/logo.jpg" alt="logo" class="logo" id="companyLogo">EMPURA</h1>
+            </div>
+            
+            <!--nav bar for computer users-->
+            <nav>
+                <ul>
+                    <li class="currentPage"><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <!--dropdown menu for mobile users-->
+            <div class="dropdown">
+                <img class="icon" src="../Images/icon.jpg" alt="Hamburger Icon">
+                <div class="dropdown-content">
+  	                <a href="homepage.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+            
+        </header>
+    
+        <main>
+            <!-- This is where the main website image goes -->
+            <img class="mainImage" src="Images/city.jpg" alt="Empura HQ">
+        
+            <h1 id="slogan">"A Family Company"</h1>
+            <h1 id="banner">Welcome to Empura.com</h1>
+            <div class="container">
+                
+                <!--First Item-->
+                <article class= "item" id="item1">
+                    <img class="itemImage" src="Images/meeting.jpg" alt="An Important meeting">
+                    <h2>New Website Re-design!</h2>
+                    <p>We have recently re-designed our website to be more user-friendly. The guy responsible for designing our last website has been promptly fired.</p>
+                </article>
+                
+                <!--Second Item-->
+                <article class= "item" id="item2">
+                    <img class="itemImage" src="Images/construction.jpg" alt="Construction Site">
+                    <h2>Builders Needed!</h2>
+                    <p>With loads of new Empura Office Buildings being constructed all across the globe, we're in need of builders willing to help us construct our vision of the future.</p>
+                </article>
+                
+                <!--Third Item-->
+                <article class= "item" id="item3">
+                    <img class="itemImage" src="Images/blacktron.jpg" alt="Blacktron logo">
+                    <h2>BlackTron</h2>
+                    <p>Famous for its successful moon-colonization mission, BlackTron is continuing to propel humanity beyond the stars. To find out more about our Space Program and our Moon colonization mission. Click here: <a href="https://en.wikipedia.org/wiki/Lego_Space#Blacktron_(1987%E2%80%931988)" target="_blank" class="Link">www.blacktron.com</a></p>
+                </article>
+                
+                <!--Fourth Item-->
+                <article class= "item" id="item4">
+                    <img class="itemImage" src="Images/coffee.jpg" alt="A kreative cup of coffee">
+                    <h2>Kreative Koffee</h2>
+                    <p>Visit one of our Kreative Koffee stores located at the base of every Empura building. Every Kup of Koffee is blended with the finest Kocoa beans from the forests of Legopia. Plus if you buy a Membership Kard now, you Kan get your Koffee for only 40%!</p>
+                </article>
+            </div>
+            <!--Subscription form-->
+            <h1>Subscribe Now!</h1>
+            <article class="contactBox">
+                <h2>Get the Latest Updates</h2>
+                <form method="post" action="mailto:joeblokson@gmail.com">
+                    <p class="inputBox">
+                        <label>Name:</label>
+                        <br>
+                        <input name="name" type="text" maxlength="30" placeholder="Your Name">
+                    </p>
+                    <p class="inputBox">
+                        <label>Email:</label>
+                        <br>
+                        <input name="email" type="email" pattern="[a-z0-  9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your Email">
+                    </p>
+                    
+                    <label>Message:</label>
+                    <br>
+                    <textarea class="inputBox" maxlength="280" rows="4" cols="50" placeholder="Your Message"></textarea> <br>
+            
+                    <input id="submitButton" name="submit" value="submit" type="submit">
+                </form>
+            </article>
+            
+        </main>
+        
+        <footer>
+            <p>123th Bricksburg Avenue SW, Legopolis, BG</p>
+            <p>Phone: (555) 876-7281 Fax: (555) 876 8329 Email: info@empura.com</p>
+            <p>Contact | Careers | Privacy Policy</p>
+            <div id="copyright">©1987-2020, Empura Inc.</div>
+        </footer>
+    </body>
+
+</html>

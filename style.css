@@ -1,0 +1,315 @@
+/*for small devices*/
+@media only screen and (min-width: 300px) and (max-width: 1000px){
+    .logo {
+        margin: auto;
+        margin-bottom
+    }
+    
+    #companyLogo{
+        margin-top: 4px;
+        width: 70px;
+    }
+
+    #companyName{
+        font-family: 'Archivo Black', serif;
+        color: orange;
+        font-size: 40px;
+    }
+    
+    .icon {
+        position: absolute;
+        width: 50px;
+        margin-top: -110px;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        margin-top: -70px;
+        background-color: white;
+        width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        font-family: 'Abel', sans-serif, serif;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    #slogan {
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: ghostwhite;
+        z-index: 1;
+    }
+    
+    header {
+        height: 50px;
+    }
+
+    #companyLogo{
+        margin-top: 5px;
+        width: 35px;
+    }
+    .item {
+        padding: 0px;
+        margin: 5% 15%;
+    }
+    
+    .item p {
+        padding: 20px;
+    }
+    
+    .itemImage {
+        width: 100%;
+        height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav{
+        visibility: hidden;
+    }
+    
+    input {
+        width: 90%;
+        padding: 10px;
+    }
+
+    textarea{
+        width: 90%;
+        padding: 10px;
+        height: 100px;
+    }
+    
+    form {
+        margin: 5% 10%;
+    }
+    
+    #contactImage {
+        display: none;
+    }
+    
+    #RodImage {
+        height: 1000px;
+    }
+}
+
+#companyName{
+    font-family: 'Archivo Black', serif;
+    color: orange;
+}
+
+.mainImage {
+    object-fit: contain;
+    width: 100%;
+    height: 30%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+h1, h2 {
+    text-align: center;
+    color: orange;
+}
+
+nav li {
+    display: inline;
+    font-family: sans-serif;
+    margin left: 70px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    font-family: 'Abel', sans-serif, serif;
+}
+
+.info {
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.currentPage {
+    background-color: lightgray;
+}
+
+article{
+    text-align: center;
+    border: solid gainsboro;
+    background-color: white;
+}
+
+/*For Large and Medium Devices*/
+@media only screen and (min-width: 1000px) {
+    nav {
+        float: right;
+    }
+    
+    .dropdown {
+        display: none;
+    }
+    
+    .logo {
+        margin: auto;
+        margin-left: 5px;
+        width: 10%
+        padding: 5px;
+    }
+    
+    #companyLogo{
+        margin-top: 4px;
+        float: left;
+        width: 35px;
+    }
+
+    #companyName{
+        font-family: 'Archivo Black', serif;
+        color: orange;
+        float: left;
+    }
+
+    #slogan {
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        color: ghostwhite;
+        z-index: 1;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 10px;
+        grid-gap: 2.4%;
+    }
+    
+    .item {
+        border-radius: 10px;
+    }
+    
+    .item p {
+        padding: 3px 20px;
+    }
+    
+    .itemImage {
+        width: 100%;
+        height: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    #item1, #item3 {
+        margin-left: 25%;
+    }
+
+    #item2, #item4 {
+        margin-right: 25%;
+    }
+
+    #item3, #item4 {
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    
+    input {
+        width: 60%;
+        padding: 10px;
+    }
+    
+    textarea{
+        width: 60%;
+        padding: 10px;
+        height: 100px;
+    }
+}
+
+form h2 {
+    color: black;
+}
+
+body {
+    background-image: linear-gradient(white, gainsboro);
+}
+
+.contactBox {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.contactBox h2 {
+    color: black;
+}
+
+label {
+    float: left;
+    margin-left: 90px;
+}
+
+#RodImage {
+    height: 400px;
+}
+
+#submitButton {
+    color: white;
+    background-color: orange;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    font-family: sans-serif, serif;
+    margin-top: 0px;
+    color: white;
+    height: 150px;
+    width: 100%;
+    background: black;
+    text-align: center;
+}
